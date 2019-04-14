@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 from setuptools import setup, find_packages
 from sass_processor import __version__
 
-with open('README.md', 'r') as fh:
+with open('README.md', encoding='utf-8', 'r') as fh:
     long_description = fh.read()
 
 CLASSIFIERS = [
