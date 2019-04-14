@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 from sass_processor import __version__
 
 with open('README.md', 'r') as fh:
-    long_description = fh.read(encoding='utf-8')
+    long_description = fh.read()
 
 CLASSIFIERS = [
     'Development Status :: 5 - Production/Stable',
